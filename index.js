@@ -5,12 +5,7 @@ const SVG = require('./lib/svg');
 const fs = require('fs');
 
 
-// for some reason is throwing me an error if i dont call it here
-function isHexColor(hex) {
-    return typeof hex === 'string'
-        && hex.length === 6
-        && !isNaN(Number('0x' + hex))
-}
+
 // Reference call to inquirer to take in and store everything we could possibly need.
 inquirer
 .prompt([
@@ -80,7 +75,7 @@ inquirer
     const mysvg = svg.render();
     
     
-    fs.writeFile('./examples/logoExample0.svg', mysvg, (err) =>{
+    fs.writeFile('./examples/logo.svg', mysvg, (err) =>{
         if (err) throw err;
         console.log('Generated logo.svg');
     } )
