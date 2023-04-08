@@ -94,8 +94,9 @@ node.js, inquirer 8.2.4, jest 29.5.0
 
 ### Video
 
-Here is a video to show you how to run the program on your terminal and check to see that your logo is there.
+Here is a video to show you how to run the program on your terminal and check to see that your logo is there:
 
+[Link to Video](video/svgWalkthrough.mp4)
 <br/>
 <br/>
 
